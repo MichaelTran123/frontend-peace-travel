@@ -10,7 +10,18 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "aws-amplify": "^6.5.1",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.1.1",
+    "@aws-amplify/backend-cli": "^1.2.3",
+    "aws-cdk": "^2.152.0",
+    "aws-cdk-lib": "^2.152.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.23.1",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
   }
 }
